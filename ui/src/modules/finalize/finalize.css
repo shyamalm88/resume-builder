@@ -1,0 +1,109 @@
+.sidebar,
+.main {
+  padding: 15px;
+}
+* {
+  -webkit-print-color-adjust: exact !important; /* Chrome, Safari, Edge */
+  color-adjust: exact !important; /*Firefox*/
+}
+
+.sidebar {
+  background: #455aa3;
+  color: white;
+  min-height: 2150px;
+}
+.resume {
+  margin-top: 40px !important;
+}
+
+.resume .sidebar h2,
+.resume .sidebar h3,
+.resume .sidebar h4,
+.resume .sidebar h5 {
+  color: white;
+  font-size: 28px;
+}
+
+.expertise ul {
+  padding: 0;
+  margin-top: 20px;
+}
+
+.expertise li.noRating.onlyBorder {
+  border: 1px solid #f7f7f7;
+  background: none;
+  color: #f7f7f7;
+}
+
+.profession {
+  color: #40b281;
+  font-weight: normal;
+}
+.expertise li {
+  list-style: none;
+  background-color: #ffffff05;
+  color: #f7f7f7;
+  padding: 4px 10px;
+  border-radius: 2px;
+}
+.expertise li.noRating {
+  list-style: none;
+  background-color: #f7f7f7;
+  color: #333;
+  padding: 4px 10px;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 4px;
+}
+.expertise li.noRating .ellipsis {
+  overflow: visible;
+  text-overflow: none;
+}
+
+.expertise {
+  margin-bottom: 30px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.contactDetails {
+  background-color: #455aa3;
+  color: #fff;
+  min-height: 30px;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.resumeIcon {
+  width: 30px;
+}
+.resumeText {
+  width: 49%;
+}
+
+@media print {
+  body {
+    width: 2000px;
+    min-height: 1500px;
+  }
+  .sidebar {
+    min-height: 2750px;
+  }
+  @page {
+    size: auto;
+    margin: 0mm;
+  }
+  button,
+  .btn,
+  nav {
+    display: none;
+  }
+}

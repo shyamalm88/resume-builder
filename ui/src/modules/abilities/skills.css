@@ -1,0 +1,30 @@
+.skillList {
+  list-style: none;
+  padding: 10px;
+}
+
+.skillList li {
+  padding: 5px 30px 5px 15px;
+  background-color: #eee;
+  display: inline-block;
+  border-radius: 2px;
+  margin: 5px;
+  position: relative;
+  font-family: "Oswald", sans-serif;
+}
+.skillList li > span {
+  margin-left: 10px;
+  position: absolute;
+  top: 8px;
+  right: 5px;
+  cursor: pointer;
+}
+.p-rating {
+  float: right;
+  margin-top: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.p-rating .p-rating-icon.pi-star-fill {
+  color: #2196f3;
+}

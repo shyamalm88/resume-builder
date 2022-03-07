@@ -93,6 +93,7 @@
   body {
     width: 2000px;
     min-height: 1500px;
+    font-size: 20px;
   }
   .sidebar {
     min-height: 2750px;
